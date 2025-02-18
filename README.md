@@ -26,5 +26,4 @@ Key Highlights:
 -	Developed insights into crime patterns, including the most frequent incidents, the areas most affected by crime, and the times of day with the highest crime activity.
 This project demonstrates my ability to work with large, complex datasets and apply machine learning techniques like clustering and time series forecasting to derive actionable insights. It also highlights my skills in data preprocessing, visualization, and model deployment to provide both descriptive and predictive analysis for real-world applications.
 
-![image](https://github.com/user-attachments/assets/f4cd4ab2-2cf9-45a0-b20f-95cc0c8cceec)
 
