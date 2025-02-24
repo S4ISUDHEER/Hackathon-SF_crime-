@@ -1,0 +1,28 @@
+San Francisco Crime Analysis
+Problem:
+The project aimed to analyze crime data in San Francisco from 2018 to the present (nov-2024) to understand the distribution, trends, and patterns of criminal activities. The key challenges were:
+•	Identifying crime hotspots across the city.
+•	Understanding the relationship between crime types and their geographic distribution.
+•	Forecasting future crime incidents based on historical data.
+•	Analyzing whether the timing and location of crimes align with community resources for proactive interventions.
+Insights:
+1.	Crime Hotspots:
+o	Geographically clustered incidents were identified through DBSCAN clustering, revealing crime hotspots in specific neighborhoods. The most affected areas were concentrated in downtown San Francisco, Bayview-Hunters Point, and Tenderloin, indicating a need for increased policing or community interventions in these regions.
+2.	Crime Types:
+o	The most frequent types of crimes were theft, assault, and drug-related offenses. Analysis of incident categories showed that property crimes (e.g., burglary) were more frequent than violent crimes (e.g., assault and robbery), providing a clear picture of the crime landscape.
+3.	Time-based Trends:
+o	Crime activity was higher during nighttime hours (10 PM - 2 AM) and on weekends, with certain crimes peaking around Friday and Saturday evenings.
+o	Using time-series forecasting methods like ARIMA and LSTM, I was able to predict potential surges in incidents for future weeks, particularly in areas with high crime concentrations.
+4.	Property vs. Violent Crimes:
+o	An analysis of property vs. violent crimes indicated a trend where property crimes such as burglary and auto theft were more prevalent in wealthier neighborhoods, while violent crimes were more concentrated in socioeconomically disadvantaged areas.
+Recommendations:
+1.	Increased Patrol in High-Crime Hotspots:
+o	Focused efforts should be directed toward crime hotspots like the Tenderloin and Bayview-Hunters Point areas. Increased police presence and community patrol programs could help deter criminal activity, especially for property crimes like theft and burglary.
+
+2.	Targeted Prevention Programs:
+o	Given the high frequency of theft and drug-related offenses, I recommend implementing community outreach programs to engage residents in crime prevention and increase neighborhood watch initiatives. Additionally, targeted substance abuse programs could help address the root causes of crime in certain areas.
+3.	Optimizing Resource Allocation Based on Time Trends:
+o	The analysis of crime timing suggests that increased law enforcement presence is needed during night hours and especially on weekends. Policymakers should consider deploying more officers and surveillance systems in known high-crime periods.
+4.	Cross-City Crime Comparison:
+o	Comparing San Francisco’s crime data with similar metropolitan areas can help identify additional patterns and best practices that can be applied locally. This cross-city analysis could reveal effective crime prevention strategies used in other regions that may work well in San Francisco.
+
